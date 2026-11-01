@@ -1,0 +1,27 @@
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :compileJava
+F:\wearminutes-svc\service\service\src\main\java\com\wearminutes\service\controller\admin\AdminController.java:71: error: illegal start of type
+    .
+    ^
+1 error
+
+> Task :compileJava FAILED
+
+[Incubating] Problems report is available at: file:///F:/wearminutes-svc/service/service/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava' (registered by plugin class 'org.gradle.api.plugins.JavaBasePlugin').
+> Compilation failed; see the compiler output below.
+  F:\wearminutes-svc\service\service\src\main\java\com\wearminutes\service\controller\admin\AdminController.java:71: error: illegal start of type
+      .
+      ^
+  1 error
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+BUILD FAILED in 2m 36s
+1 actionable task: 1 executed
